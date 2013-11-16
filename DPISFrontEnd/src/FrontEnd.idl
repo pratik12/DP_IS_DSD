@@ -1,0 +1,7 @@
+module FrontEnd{
+	interface FrontEndInterface{
+		string executeOperation(in string method, in string badgeId, in string firstName, in string lastName, 
+		 in string description, in string status, in string address, in string lastDate, in string lastLocation, 
+		 in string recordId, in string remoteServerName);
+	};
+};
